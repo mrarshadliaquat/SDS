@@ -16,11 +16,11 @@ RewriteRule ^ /%1 [R=301,NE,L]
 
 ## Redirect from www - non-www
 ## RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-## RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+## RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 ## Redirect from non-www - www
 ## RewriteCond %{HTTP_HOST} ^yourdomain\.com$ [NC]
-## RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L, R=301]
+## RewriteRule ^(.*)$ https://sdssecur.com//$1 [L, R=301]
 
 ## SSL Redirect
 ## RewriteEngine On
@@ -43,4 +43,4 @@ RewriteRule . /index.html [L]
 Redirect 301 "/test1" "/test2"
 
 ## Redirect to a different domain
-Redirect 301 "/service" "http://example.com"
+Redirect 301 "/service" "https://sdssecur.com/"
