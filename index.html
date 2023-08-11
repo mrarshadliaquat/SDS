@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SDS - CCTV & Security Solution</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.slim.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.slim.min.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.map" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- Translater Start -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Translater End -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-1 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small><a
+                            href="https://www.google.com/maps/d/viewer?hl=en&mid=1kgkcjW_dco6okO6OdUTei1lnlxL4OUM&ll=24.92054136666964%2C67.05161180866887&z=20"
+                            target="_blank">Office#402, Amma Tower, Block-3, F.B Area, Karachi, PK</a></small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small style="color: #ffffff;"><a href="mailto:service.sds.tec@gmail.com"
+                            style="color:text-offwhite;">service@sdssecur.com</a></small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small style="color: #ffffff;"><a href="tel:+923142012660">+923142012660</a></small>&nbsp;&nbsp;
+                    <h6 class="fab fa-whatsapp text-primary"></h6>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small style="color: #ffffff;">24Hrs</small>
+                </div>
+                <!-- Translater Start -->
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div id="google_translate_element"></div>
+                </div>
+                <!-- Translater End -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">Smart Digital Surveillance</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://twitter.com/Infosdstec" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://www.facebook.com/people/Smart-Digital-Surveillance/100095286858885/?mibextid=ZbWKwL"
+                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0"
+                    href="https://www.instagram.com/infosdstec/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://youtube.com/@infosdstec" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution
+                                    For You</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">We have so much experience to design your
+                                    residential and commercial CCTV systems as per your requirement, to make our clients
+                                    feel comfortable and secure. We have efficient and experienced installer teams to
+                                    solve your problems as quickly as possible.</p>
+                                <a class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight"
+                                    href="#Quote">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For
+                                    All Business</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Protect your business and home with the latest
+                                    technology in surveillance. A team of qualified experts will help you choose the
+                                    right surveillance system and setup to meet your security needs.</p>
+                                <a class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight"
+                                    href="#Quote">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For
+                                    Security System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Smart Digital Surveillance has the
+                                    resources to handle all your needs. “We do quality work, on time, and at a fair
+                                    price.” That's our Business Philosophy. No matter the size and scope, we work
+                                    together with our clients to ensure that the finished systems are of the highest
+                                    quality and standards.
+                                </p>
+                                <a class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight"
+                                    href="#Quote">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
+                        </div>
+                        <h5 class="text-white">Home Security</h5>
+                        <hr class="w-25">
+                        <span>Worried about your home safety? Well, not anymore as Smart Digital Surveillance got you
+                            covered! Now with our high tech security solutions and equipment, keep your house safe and
+                            secure.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
+                        </div>
+                        <h5 class="text-white">Access Control</h5>
+                        <hr class="w-25">
+                        <span>Access Control Device is a type of security system that uses iris recognition technology
+                            to provide access control to a facility or area. It typically consists of a device that
+                            captures and analyzes the unique pattern of the iris, which is the colored part of the eye
+                            surrounding the pupil, to verify the identity of an individual and grant or deny access
+                            accordingly.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
+                        </div>
+                        <h5 class="text-white">24/7 Support</h5>
+                        <hr class="w-25">
+                        <span>Our experiences and supportive staff will be there at your assistance 24/7. Regardless of
+                            the situation or time, let us know and we’ll be here in moments.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">About Us</h1>
+                        <h4>Founded in 2012, Smart Digital Surveillance take pride in serving people to ensure their
+                            safety!</h4>
+                        <p class="mb-4 pb-2">Smart Digital Surveillance is a modern, advanced and technological
+                            company, which has been serving companies and customers around the city since 13 years. Our
+                            equipment, machinery, cameras, devices and tools are manufactured with state of art
+                            techniques to ensure your safety and security.<br>
+                            <br>
+                            Smart Digital Surveillance keeps all its customer range and their needs in minds and
+                            offers services for educational institutes, hospitals, shopping centers, corporate sectors,
+                            city spaces and much more. From CCTV Solutions to smart video analytical solutions, fire
+                            control solutions, bio-metrics, metal detectors, road blockers, bollards barrier, control
+                            room operations and much more – Surveillance Security is absolutely your one stop solution
+                            for all security needs.
+
+
+                        </p>
+                        <div class="row g-4 mb-4 pb-3">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">113</h2>
+                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">117</h2>
+                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+            <div class="row g-0 service-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Commercial CCTV System</h4>
+                        <p class="mb-4">Our Best Security cameras and video management solutions for businesses.</p>
+                        <a class="btn" href="#Quote"><i class="fa fa-arrow-right text-white me-3"></i>Free Quote</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Finger Print Access</h4>
+                        <p class="mb-4">Smart Digital Surveillance provides a wide range of biometric services and
+                            solutions.</p>
+                        <a class="btn" href="#Quote"><i class="fa fa-arrow-right text-white me-3"></i>Free Quote</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Fire Detection And Safety</h4>
+                        <p class="mb-4">Install a fire alarm system to catch any emergency before it turns too bad. </p>
+                        <a class="btn" href="#Quote"><i class="fa fa-arrow-right text-white me-3"></i>Free Quote</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Smart Home Security</h4>
+                        <p class="mb-4">High tech security solutions and equipment, keep your house safe and secure.</p>
+                        <a class="btn" href="#Quote"><i class="fa fa-arrow-right text-white me-3"></i>Free Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Why Choose Us</h1>
+                        <p class="mb-4 pb-2">A no compromise on quality approach ensures that our solutions are robust,
+                            user-friendly, cost effective and lasts for years and years running.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Trusted</p>
+                                        <h5 class="mb-0">Security</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Smart</p>
+                                        <h5 class="mb-0">Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">24/7 Hours</p>
+                                        <h5 class="mb-0">Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0" id="Quote">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Free Quote</h1>
+                        <p class="mb-4 pb-2">Let our team of experts quickly build and quote the right solutions for
+                            your security needs.</p>
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-1" id="name" placeholder="Your Name"
+                                        style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-1" id="email"
+                                        placeholder="Your Email" style="height: 55px;" required>
+                                </div>
+                        </form>
+
+                        <!-- Start Service -->
+                        <div class="col-12 col-sm-6">
+                            <select class="form-select border-1" style="height: 55px;" id="select">
+                                <option selected>Select A Service</option>
+                                <optgroup label="CCTV & Security Service" style="color:rgb(68, 65, 65);">
+                                    <option value="CCTV Surveillance Security Systems"
+                                        style="color:rgb(145, 144, 144);">CCTV Surveillance Security Systems
+                                    </option>
+                                    <option value="CCTV Surveillance Security Systems"
+                                        style="color:rgb(145, 144, 144);">PABX
+                                    </option>
+                                    <option value="Biometric Access Control Systems" style="color:rgb(145, 144, 144);">
+                                        Biometric Access Control Systems
+                                    </option>
+                                    <option value="Fire Alarm Systems" style="color:rgb(145, 144, 144);">Fire
+                                        Alarm Systems</option>
+                                </optgroup>
+                                <optgroup label="Other IT Service" style="color:rgb(68, 65, 65);">
+                                    <option value="Web, App & Software Developing" style="color:rgb(145, 144, 144);">
+                                        Web, App & Software Developing
+                                    </option>
+                                    <option value="Graphic Designing" style="color:rgb(145, 144, 144);">Graphic
+                                        Designing</option>
+                                    <option value="Digital Marketing" style="color:rgb(145, 144, 144);">Digital
+                                        Marketing</option>
+                                </optgroup>
+                                <optgroup label="Technical Service" style="color:rgb(68, 65, 65);">
+                                    <option value="Electrical" style="color:rgb(145, 144, 144);">Electrical
+                                    </option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <!-- End Service -->
+
+                        <!-- Other Service Start-->
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control border-1" id="service" placeholder="Other Service"
+                                style="height: 55px;">
+                        </div>
+                        <!-- Other Service End-->
+
+
+                        <div class="col-12">
+                            <textarea class="form-control border-1" placeholder="Special Note" id="message"></textarea>
+                        </div>
+
+                        <div class="container">
+                            <form id="login" onsubmit="process(event)">
+                                <input class="form-control border-1" id="phone" type="tel" ng2TelInput value="+92"
+                                    name="phone" required />
+                                <input type="submit" class="btn btn-primary" class="btn" value="Verify" />
+                            </form>
+                            <div class="alert alert-info" style="display: none"></div>
+                            <div class="alert alert-error" id="verify-alert-error" style="display: none"></div><br>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>function sendEmail() {
+            Email.send({
+                SecureToken: "364d36e1-f560-422b-a869-d76bae3c9a2e",
+                To: 'service@sdssecur.com',
+                From: "service@sdssecur.com",
+                Subject: "New Enquiry",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone: " + document.getElementById("phone").value
+                    + "<br> Service: " + document.getElementById("select").value
+                    + "<br> Other Service: " + document.getElementById("service").value
+                    + "<br> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message send succesfully")
+            );
+
+        }</script>
+    <!-- Quote End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">MD Yousuf</h5>
+                            <span class="text-primary">CEO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Hasan Sheikh</h5>
+                            <span class="text-primary">Manager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Hamza Ali</h5>
+                            <span class="text-primary">IT Expert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Aster</h5>
+                            <span class="text-primary">Database administrator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Testimonial</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">Have been working with Smart Digital Surveillance for the past few years and the way
+                        they treat you and your needs is absolutely superb. I wish them the best for the future.</p>
+                    <h4>Fiza Shehzad</h4>
+                    <span class="text-primary">Digital Marketing</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">If you are looking for incredible surveillance oriented solution for your home and
+                        company then I would suggest for Smart Digital Surveillance as they are ready to opt for new
+                        technology and innovative solutions that serve the consumers needs well, furthermore they have
+                        quick response to customer service as well.</p>
+                    <h4>Abdul Shakoor</h4>
+                    <span class="text-primary">Administration Manager MNM Aviation Service</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Great People, outstanding system, excellent service after sales.</p>
+                    <h4>Moin Fudda</h4>
+                    <span class="text-primary">Software Engineer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6">
+                    <h4 class="text-white mb-4">Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a
+                            href="https://www.google.com/maps/d/viewer?hl=en&mid=1kgkcjW_dco6okO6OdUTei1lnlxL4OUM&ll=24.92054136666964%2C67.05161180866887&z=20"
+                            target="_blank">Office#402, Amma Tower, Str-4, Block-3,
+                            F.B Area, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karachi, Pakistan.</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+923142012660">+923142012660</a>
+                        &nbsp; <i class="fab fa-whatsapp" style="color: #0bd31c;"></i></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+923142012660">+923112203055</a>
+                        &nbsp; <i class="fab fa-whatsapp" style="color: #0bd31c;"></i></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:service.sds.tec@gmail.com"
+                            style="color:text-offwhite;">service@sdssecur.com</a></p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2"
+                            href="https://twitter.com/Infosdstec" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2"
+                            href="https://www.facebook.com/alsaeeditechnical" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2"
+                            href="https://www.instagram.com/infosdstec/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2"
+                            href="https://youtube.com/@infosdstec" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Get Direction</h5>
+                    <div class="col-lg-1 pe-lg-0" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <iframe class="position-absolute w-20 h-20" style="object-fit: cover;"
+                                src="https://www.google.com/maps/d/embed?mid=1kgkcjW_dco6okO6OdUTei1lnlxL4OUM&ehbc=2E312F"
+                                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" frameborder="0" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom">SDS</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed & Distributed By <a class="border-bottom">Golden Dev</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+<script>
+
+    function getIp(callback) {
+        fetch('https://ipinfo.io/json?token=9ef0ed487bf087', { headers: { 'Accept': 'application/json' } })
+            .then((resp) => resp.json())
+            .catch(() => {
+                return {
+                    country: 'us',
+                };
+            })
+            .then((resp) => callback(resp.country));
+    }
+
+
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+        initialCountry: "auto",
+        geoIpLookup: getIp,
+        separateDialCode: false,
+        preferredCountries: ["PK"],
+        utilsScript:
+            "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+
+    });
+
+    const info = document.querySelector(".alert-info");
+    const error = document.querySelector(".alert-error");
+
+    function process(event) {
+        event.preventDefault();
+
+        const phoneNumber = phoneInput.getNumber();
+
+        info.style.display = "none";
+        error.style.display = "none";
+
+        if (phoneInput.isValidNumber()) {
+            info.style.display = "";
+            info.innerHTML = `Valid phone number: <strong>${phoneNumber}</strong>`;
+        } else {
+            error.style.display = "";
+            error.innerHTML = `Invalid phone number. `;
+        }
+    }
+
+    document.getElementById("verify-alert-error").style.color = "red";
+    document.getElementById("verify-alert-error").style.borderRadius = "6px";
+
+</script>
+
+</html>
