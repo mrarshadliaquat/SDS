@@ -1,2 +1,8 @@
 User-agent: *
 Allow: /
+
+User-agent: EtaoSpider
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
