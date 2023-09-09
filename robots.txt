@@ -1,13 +1,13 @@
 User-agent: *
 Allow: /index/
-Allow: /about
-Allow: /service
-Allow: /project
-Allow: /feature
-Allow: /quote
-Allow: /team
-Allow: /testimonial
-Allow: /contact
+Allow: /about/
+Allow: /service/
+Allow: /project/
+Allow: /feature/
+Allow: /quote/
+Allow: /team/
+Allow: /testimonial/
+Allow: /contact/
 
 User-agent: EtaoSpider
 Disallow: /
