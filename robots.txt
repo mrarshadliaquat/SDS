@@ -15,4 +15,4 @@ Disallow: /
 User-agent: GPTBot
 Disallow: /
 
-sitemap: https://sdssecur.com/index.html/sitemap.xml
+sitemap: https://sdssecur.com/sitemap.xml
