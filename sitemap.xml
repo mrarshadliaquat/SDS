@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-<url>
-  <loc>http://sdssecur.com/</loc>
-  <lastmod>2023-08-19T14:08:32+00:00</lastmod>
-</url>
-
-
+  <url>
+       <loc>https://sdssecur.com/index</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/about.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/service.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/project.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/feature.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/quote.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/team.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/testimonial.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sdssecur.com/contact.html</loc>
+       <lastmod>2023-09-15T00:44:59+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
 </urlset>
