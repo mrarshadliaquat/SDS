@@ -16,3 +16,5 @@ User-agent: GPTBot
 Disallow: /
 
 sitemap: https://sdssecur.com/sitemap.xml
+
+sitemap: https://a325408.sitemaphosting6.com/4389681/sitemap_4389681.xml
