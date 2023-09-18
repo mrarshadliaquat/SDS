@@ -8,6 +8,7 @@ Allow: /quote/
 Allow: /team/
 Allow: /testimonial/
 Allow: /contact/
+Allow: https://sdssecur.com/
 
 User-agent: EtaoSpider
 Disallow: /
