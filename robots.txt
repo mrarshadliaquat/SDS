@@ -5,7 +5,11 @@ Allow: /service/
 Allow: /quote/
 Allow: /contact/
 Allow: https://sdssecur.com/
+
+User-agent:
 Allow: SEO-PowerSuite-bot
+
+User-agent:
 Allow: Googlebot
 
 User-agent: EtaoSpider
