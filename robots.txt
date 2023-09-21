@@ -1,11 +1,7 @@
 User-agent: *
-Allow: /$
-Allow: /index/
-Allow: /about/
-Allow: /service/
-Allow: /quote/
-Allow: /contact/
 Allow: https://sdssecur.com/
+
+Sitemap: https://sdssecur.com/sitemap.xml
 
 Allow: SEO-PowerSuite-bot
 Allow: Googlebot
