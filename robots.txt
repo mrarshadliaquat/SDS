@@ -2,10 +2,14 @@ User-agent: *
 Allow: https://sdssecur.com
 
 User-agent: Googlebot
+Allow: .js
+Allow: .css
 Allow: /index.html
 Allow: https://sdssecur.com
 
 User-agent: Robots
+Allow: .js
+Allow: .css
 Allow: /index.html
 Allow: https://sdssecur.com
 
