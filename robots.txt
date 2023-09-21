@@ -6,8 +6,6 @@ Allow: /service/
 Allow: /quote/
 Allow: /contact/
 Allow: https://sdssecur.com/
-Disallow: /*
-Disallow: /*/*
 
 Allow: SEO-PowerSuite-bot
 Allow: Googlebot
