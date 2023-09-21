@@ -1,5 +1,9 @@
 User-agent: *
-Allow: https://sdssecur.com/
+Allow: https://sdssecur.com
+
+User-agent: Googlebot
+Allow: /index.html
+
 
 Sitemap: https://sdssecur.com/sitemap.xml
 
