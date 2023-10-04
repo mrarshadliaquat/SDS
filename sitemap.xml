@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
    <url>
-      <loc>https://sdssecur.com</loc>
-      <lastmod>2023-10-03</lastmod>
+      <loc>https://sdssecur.com/index.html</loc>
+      <lastmod>2023-10-05</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://sdssecur.com/contact.html</loc>
-      <lastmod>2023-10-03</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
-      <loc>https://sdssecur.com/contact.html</loc>
-      <lastmod>2023-10-03</lastmod>
+      <lastmod>2023-10-05</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://sdssecur.com/about.html</loc>
-      <lastmod>2023-10-13</lastmod>
+      <lastmod>2023-10-05</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://sdssecur.com/service.html</loc>
-      <lastmod>2023-10-03</lastmod>
+      <lastmod>2023-10-05</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
