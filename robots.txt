@@ -1,17 +1,20 @@
 User-agent: *
 Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
 
 User-agent: Googlebot
 Allow: .js
 Allow: .css
 Allow: /index.html
 Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
 
 User-agent: Robots
 Allow: .js
 Allow: .css
 Allow: /index.html
 Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
 
 
 Sitemap: https://sdssecur.com/sitemap.xml
