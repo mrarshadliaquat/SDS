@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,9 +21,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - name: Download Averon storefront bundle
         run: |
           curl -L "https://tmpfiles.org/dl/wDwzKrLkZpNk/averon-marketplace-pages.zip" -o averon-marketplace-pages.zip
+          rm -rf public
           python3 - <<'PY'
           import pathlib, zipfile
 
@@ -39,6 +44,18 @@ jobs:
                   target.write_bytes(archive.read(item))
           PY
           test -f public/index.html
+      - name: Commit Averon storefront to branch root
+        run: |
+          cp -a public/. .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html 404.html app.js styles.css delivery-terms.html assets
+          if git diff --cached --quiet; then
+            echo "Averon storefront is already current."
+          else
+            git commit -m "Publish Averon storefront files"
+            git push
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
