@@ -1,0 +1,39 @@
+name: Deploy Averon Marketplace
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/averon-pages.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Averon storefront bundle
+        run: |
+          curl -L "https://tmpfiles.org/dl/wDwzKrLkZpNk/averon-marketplace-pages.zip" -o averon-marketplace-pages.zip
+          mkdir -p public
+          unzip -q averon-marketplace-pages.zip -d public
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Averon storefront
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
