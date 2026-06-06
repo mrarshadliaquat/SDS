@@ -26,8 +26,21 @@ jobs:
       - name: Download Averon storefront bundle
         run: |
           curl -L "https://tmpfiles.org/dl/wDwzKrLkZpNk/averon-marketplace-pages.zip" -o averon-marketplace-pages.zip
-          mkdir -p public
-          unzip -q averon-marketplace-pages.zip -d public
+          python3 - <<'PY'
+          import pathlib, zipfile
+
+          target_root = pathlib.Path('public')
+          target_root.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile('averon-marketplace-pages.zip') as archive:
+              for item in archive.infolist():
+                  safe_name = item.filename.replace('\\', '/').lstrip('/')
+                  if not safe_name or safe_name.endswith('/'):
+                      continue
+                  target = target_root / safe_name
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(archive.read(item))
+          PY
+          test -f public/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Averon storefront
